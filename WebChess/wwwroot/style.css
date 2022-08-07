@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 50px;
+}
+
+.chess-board {
+    width: 430px;
+    height: 430px;
+    background: hsla(5, 100%, 28%, 0.896);
+    position:absolute;
+    /* display: grid;
+    grid-auto-flow: row; */
+    /* padding: 25px; */
+}
+
+.first-row{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.second-row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.third-row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.fourth-row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.fifth-row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.sixth-row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.seventh-row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.eight-row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.nineth-row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.tenth-row {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.up-down-square{
+    width: 50px;
+    height: 15px;
+    text-align: center;
+    /* box-sizing: border-box;
+    border: 1px black solid; */
+}
+
+.up-down-left-square{
+    width: 15px;
+    height: 15px;
+    /* box-sizing: border-box;
+    border: 1px black solid; */
+}
+
+.up-down-right-square{
+    width: 15px;
+    height: 15px;
+    /* box-sizing: border-box;
+    border: 1px black solid; */
+}
+
+.left-square{
+    width: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box;
+    border: 1px black solid; */
+}
+
+.right-square{
+    width: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box;
+    border: 1px black solid; */
+}
+
+.white-square{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.black-square{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+span{
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    line-height: 15px;
+    display: block;
+}
+
+.bottom-position{
+    transform: rotate(180deg);
+}
+
+div img {
+    margin: auto;
+}

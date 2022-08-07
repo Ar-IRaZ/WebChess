@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebChess", "WebChess.csproj", "{0CC4EB38-BB1A-4881-8822-E864A3866F42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebChess", "WebChess.csproj", "{0CC4EB38-BB1A-4881-8822-E864A3866F42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessLibrary", "..\ChessLibrary\ChessLibrary.csproj", "{1FDC607D-927F-4ADC-A803-A83BFB9FFC51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessLibrary", "..\ChessLibrary\ChessLibrary.csproj", "{1FDC607D-927F-4ADC-A803-A83BFB9FFC51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

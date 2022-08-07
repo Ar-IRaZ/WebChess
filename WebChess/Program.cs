@@ -23,4 +23,6 @@ namespace WebChess
                     webBuilder.UseStartup<Startup>();
                 });
     }
+
+    
 }

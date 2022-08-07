@@ -14,7 +14,7 @@
         blackBishop = 'b',
         blackKnight = 'n',
         blackRook = 'r',
-        none = ' '
+        none = '_'
 
     }
 }

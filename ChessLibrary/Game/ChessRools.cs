@@ -3535,7 +3535,7 @@ namespace ChessLibrary
                         b.Squares[y - 1, x].Figure = Figure.whiteKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.white);
+                        Game.Game.Update(b, Color.white);
 
                         if (!b.IsWhiteCheck)
                         {
@@ -3558,7 +3558,7 @@ namespace ChessLibrary
                         b.Squares[y - 1, x - 1].Figure = Figure.whiteKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.white);
+                        Game.Game.Update(b, Color.white);
 
                         if (!b.IsWhiteCheck)
                         {
@@ -3580,7 +3580,7 @@ namespace ChessLibrary
                         b.Squares[y, x - 1].Figure = Figure.whiteKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.white);
+                        Game.Game.Update(b, Color.white);
 
                         if (!b.IsWhiteCheck)
                         {
@@ -3602,7 +3602,7 @@ namespace ChessLibrary
                         b.Squares[y + 1, x].Figure = Figure.whiteKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.white);
+                        Game.Game.Update(b, Color.white);
 
                         if (!b.IsWhiteCheck)
                         {
@@ -3623,7 +3623,7 @@ namespace ChessLibrary
                         b.Squares[y + 1, x + 1].Figure = Figure.whiteKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.white);
+                        Game.Game.Update(b, Color.white);
 
                         if (!b.IsWhiteCheck)
                         {
@@ -3644,7 +3644,7 @@ namespace ChessLibrary
                         b.Squares[y, x + 1].Figure = Figure.whiteKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.white);
+                        Game.Game.Update(b, Color.white);
 
                         if (!b.IsWhiteCheck)
                         {
@@ -3665,7 +3665,7 @@ namespace ChessLibrary
                         b.Squares[y - 1, x + 1].Figure = Figure.whiteKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.white);
+                        Game.Game.Update(b, Color.white);
 
                         if (!b.IsWhiteCheck)
                         {
@@ -3687,7 +3687,7 @@ namespace ChessLibrary
                         b.Squares[y + 1, x - 1].Figure = Figure.whiteKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.white);
+                        Game.Game.Update(b, Color.white);
 
                         if (!b.IsWhiteCheck)
                         {
@@ -3718,7 +3718,7 @@ namespace ChessLibrary
                         b.Squares[y - 1, x].Figure = Figure.blackKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.black);
+                        Game.Game.Update(b, Color.black);
 
                         if (!b.IsBlackCheck)
                         {
@@ -3741,7 +3741,7 @@ namespace ChessLibrary
                         b.Squares[y - 1, x - 1].Figure = Figure.blackKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.black);
+                        Game.Game.Update(b, Color.black);
 
                         if (!b.IsBlackCheck)
                         {
@@ -3763,7 +3763,7 @@ namespace ChessLibrary
                         b.Squares[y, x - 1].Figure = Figure.blackKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.black);
+                        Game.Game.Update(b, Color.black);
 
                         if (!b.IsBlackCheck)
                         {
@@ -3785,7 +3785,7 @@ namespace ChessLibrary
                         b.Squares[y + 1, x].Figure = Figure.blackKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.black);
+                        Game.Game.Update(b, Color.black);
 
                         if (!b.IsBlackCheck)
                         {
@@ -3807,7 +3807,7 @@ namespace ChessLibrary
                         b.Squares[y + 1, x + 1].Figure = Figure.blackKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.black);
+                        Game.Game.Update(b, Color.black);
 
                         if (!b.IsBlackCheck)
                         {
@@ -3829,7 +3829,7 @@ namespace ChessLibrary
                         b.Squares[y, x + 1].Figure = Figure.blackKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.black);
+                        Game.Game.Update(b, Color.black);
 
                         if (!b.IsBlackCheck)
                         {
@@ -3851,7 +3851,7 @@ namespace ChessLibrary
                         b.Squares[y, x + 1].Figure = Figure.blackKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.black);
+                        Game.Game.Update(b, Color.black);
 
                         if (!b.IsBlackCheck)
                         {
@@ -3873,7 +3873,7 @@ namespace ChessLibrary
                         b.Squares[y + 1, x - 1].Figure = Figure.blackKing;
                         b.Squares[y, x].Figure = Figure.none;
 
-                        ConsoleGame.Update(b, Color.black);
+                        Game.Game.Update(b, Color.black);
 
                         if (!b.IsBlackCheck)
                         {

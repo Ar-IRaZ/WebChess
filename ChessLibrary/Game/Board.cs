@@ -7,16 +7,11 @@ namespace ChessLibrary.Game
         public bool IsWhiteCheck { get; set; }
         public bool IsBlackCheck { get; set; }
         public Square[,] Squares { get; set; }
-        public int[] CursoreSelected { get; set; }
+        //public int[] CursoreSelected { get; set; }
         public List<Square[]> BlackCheckVector { get; set; }
         public List<Square[]> WhiteCheckVector { get; set; }
         public byte IsMoveUnderWhiteCheck { get; set; }
         public byte IsMoveUnderBlackCheck { get; set; }
-
-        public void UpdateBoard()
-        {
-
-        }
 
         public Board CreateBoard(Fen fen)
         {
@@ -32,7 +27,7 @@ namespace ChessLibrary.Game
 
             IsMoveUnderWhiteCheck = 0;
             IsMoveUnderBlackCheck = 0;
-            CursoreSelected = new int[] { 6, 3 };
+            //CursoreSelected = new int[] { 6, 3 };
             BlackCheckVector = new List<Square[]>();
             WhiteCheckVector = new List<Square[]>();
             return this;
